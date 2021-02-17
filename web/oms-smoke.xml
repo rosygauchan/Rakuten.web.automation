@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OMS_SmokeTest">
+	<test name="SmokeTest" >
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="rakutenls.web.oms.OMSLoginTest" />
+			<class name="rakutenls.web.oms.ProductsTest" />
+		</classes>
+	</test>
+</suite>	

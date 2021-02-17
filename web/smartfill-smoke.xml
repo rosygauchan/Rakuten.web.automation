@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smartfill_SmokeTest">
+	<test name="SmokeTest" >
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="rakutenls.web.smartfill.ItemDefinitionTest" />
+			<class name="rakutenls.web.smartfill.OrdersTest" />
+			<class name="rakutenls.web.smartfill.ASNsTest" />
+		</classes>
+	</test>
+</suite>	
